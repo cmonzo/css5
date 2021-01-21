@@ -8,10 +8,11 @@ article.uno{
     width: 25%;
     background-color: rgb(14, 209, 209);
     color: white;
+    float: left;
     
 }
 article.dos{
-    width: 75%;
+    width: 100%;
     background-color: black;
     color: yellow;
     line-height: 200%;
@@ -22,6 +23,6 @@ article.dos{
         font-family: 'pottaone';
         src: url(fuentes/PottaOne-Regular.ttf);
     }
-    div.primera{
-        display: inline-block;
-    }
+   br.parada{
+       clear: both;
+   }
