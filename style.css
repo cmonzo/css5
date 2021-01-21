@@ -1,0 +1,27 @@
+header{
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    font-family: 'pottaone';
+}
+article.uno{
+    width: 25%;
+    background-color: rgb(14, 209, 209);
+    color: white;
+    
+}
+article.dos{
+    width: 75%;
+    background-color: black;
+    color: yellow;
+    line-height: 200%;
+  
+    
+    }
+    @font-face{
+        font-family: 'pottaone';
+        src: url(fuentes/PottaOne-Regular.ttf);
+    }
+    div.primera{
+        display: inline-block;
+    }
