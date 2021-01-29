@@ -13,11 +13,14 @@ article.uno{
 }
 article.dos{
     width: 100%;
-    background-color: black;
+    
     color: yellow;
     line-height: 200%;
   
     
+    }
+    span.negro{
+        background-color: black;
     }
     @font-face{
         font-family: 'pottaone';
@@ -25,4 +28,21 @@ article.dos{
     }
    br.parada{
        clear: both;
+   }
+   article.tres{
+    font-family: 'Coda Caption', sans-serif;
+    text-align: justify;
+   }
+
+   @font-face{
+       font-family: 'yusei';
+       src: url(fuentes/YuseiMagic-Regular.ttf);
+   }
+   article.cuatro{
+       font-family: 'yusei';
+   }
+   hr.azul{
+       color: blue;
+       background-color: blue;
+       height: 20px;
    }
